@@ -1,0 +1,151 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: hsl(225, 100%, 94%);
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+p {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.order-summary {
+  background-color: #ffff;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  width: 44rem;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 26px;
+  margin-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.payment {
+  border-radius: 1rem;
+  padding: 1.3rem;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  box-shadow: 0 10px 10px 0 hsl(224, 23%, 55%);
+}
+
+.payment:hover {
+  background: hsl(245, 75%, 59%);
+}
+
+.card {
+  padding-top: 12rem;
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+
+.cancel {
+  margin-top: 2rem;
+  margin-bottom: 1.8rem;
+  background: none;
+  text-decoration: none;
+  border: none;
+  color: grey;
+}
+.cancel:hover {
+  color: black;
+}
+
+.music-logo {
+  width: 5.6rem;
+}
+
+.plan {
+  padding: 0.4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  line-height: 1.6;
+}
+
+.change {
+  font-size: 14px;
+  background: none;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  border: none;
+}
+
+.change:hover {
+  color: hsl(245, 75%, 59%);
+}
+
+img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.boldtext {
+  font-weight: bold;
+  color: black;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: white;
+  padding: 2.6rem 5.6rem;
+}
+
+.textparagraph {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  word-spacing: normal;
+  line-height: 1.6;
+  color: grey;
+}
+button {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.aligntext {
+  padding-top: 2rem;
+  padding-right: 5rem;
+}
+
+.attribution {
+  padding-top: 12rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
