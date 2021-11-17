@@ -149,3 +149,46 @@ button {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 375px) {
+  .card {
+    font-size: 14px;
+  }
+
+  .order-summary {
+    background-color: #ffff;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 30rem;
+    border-radius: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .change {
+    font-size: 12px;
+  }
+
+  .music-logo {
+    width: 50px;
+  }
+
+  .container {
+    border-radius: 20px;
+    background-color: white;
+    padding: 2.6rem 2rem;
+  }
+
+  .aligntext {
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+
+  .cancel {
+    margin-bottom: 0.1rem;
+  }
+}
