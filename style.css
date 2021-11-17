@@ -152,6 +152,7 @@ button {
 
 @media screen and (max-width: 375px) {
   .card {
+    padding-top: 6rem;
     font-size: 14px;
   }
 
